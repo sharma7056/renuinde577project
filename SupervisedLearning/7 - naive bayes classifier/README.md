@@ -2,10 +2,10 @@ This sub-repository mainly focuses on using Naive Bayes Classifier Algorithm to 
 
 Contents of **Naive Bayes**
 
-* [Image](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Image): contains images used in README
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data): contains all data files used in this module
-  * [Hawk.csv](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data/Hawks.csv): Hawk Dataset
-* [Naive Bayes Classifier.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Naive%20Bayes%20Classifier.ipynb): Jupyter notebook file contains the implementation of Naive Bayes Classifier
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Image): contains images used in README
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data): contains all data files used in this module
+  * [Hawk.csv](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data/Hawks.csv): Hawk Dataset
+* [Naive Bayes Classifier.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Naive%20Bayes%20Classifier.ipynb): Jupyter notebook file contains the implementation of Naive Bayes Classifier
 
 # Naive Bayes Classifier
 
@@ -19,7 +19,7 @@ Naive Bayes operates as a classification technique grounded in Bayes Theorem, em
 - Text classification/ Spam Filtering/ Sentiment Analysis
 - Recommendation Systems
 
-A significant advantage of Naive Bayes compared to other algorithms such as SVM and Ensemble methods lies in its probabilistic approach. This allows it to compute and generate outputs instantaneously in real-time.
+
 
 Bayes Rule is represented by the following algorithm (also at the top of this page):
 P(A|B) = (P(B|A) * P(A)) / P(B). This tells us how often A happens *given that* B happens, when we know how often B happens *given that* A happens, how likely A is on its own, and how likely B is on its own.

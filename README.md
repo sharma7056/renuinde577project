@@ -25,7 +25,7 @@ Some applications of machine learning include:
 - Offering insights: Analyzing and categorizing analytics in various ways, evaluating features, and summarizing documents.
 - Generating content: Predicting future behavior to preload content and minimize wait times, visually representing high-dimensional data, and forecasting revenue.
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/Image/ML_algorithm.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/Image/ML_algorithm.png)
 
 This course uses the following data science tools:
 - Python version 3.6 or higher
@@ -36,7 +36,7 @@ This course uses the following data science tools:
   - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
 
 The topics covered in this course broadly fall into 2 categories: 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/Image/types_of_ML.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/Image/types_of_ML.png)
 
 ## Repository Description
 

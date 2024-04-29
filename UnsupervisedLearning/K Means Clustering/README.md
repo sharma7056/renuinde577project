@@ -4,10 +4,10 @@ This sub-repository implements K-Means Clustering to solve classification proble
 
 Contents of **K Means Clustering**
 
-* [Image](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Image): contains images used in subrepository
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Data): contains data files used in this module
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Image): contains images used in subrepository
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Data): contains data files used in this module
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/k%20means.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/k%20means.png)
 
 # K Means Clustering
 K-means clustering is one of the most popular unsupervised machine learning algorithms. The objective of the algorithm is to partition a given data with similar features together into **clusters** to find underlying patterns. This achieved by using a pre-defined number (k) of clusters for the data. Points are only able to be part of one cluster, and each cluster has a "centroid" that roughly averages the data and represents the center of the cluster. Data points are then allocated to each of the clusters by assigning them to clusters in such a way that minimizes each cluster's sum of squares (often using Euclidean distance).
@@ -26,24 +26,24 @@ The algorithm outputs 1) the centroids of the k clusters, which can be used to l
     - **Silhouette coefficient:**
       The silhouette coefficient is about finding a model with well-defined clusters. This value is calculated by taking the mean distance between a sample and all other points in the same cluster as well as its distance from all other points in the nearest cluster. The equation for a single sample is below:
     
-      ![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146045653-2898b2fa-6f54-4a50-a617-f8efb3f07ef5.png)
+      ![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146045653-2898b2fa-6f54-4a50-a617-f8efb3f07ef5.png)
 
         Using the equation above, calculate the silhouette coefficient for all the clusters. A higher value indicates the sample is well matched to its own cluster and poorly matched to neighboring clusters. 
     - Other ways to choose k: cross-validation, information criteria, information theoretic jump method, G-means algorithm
 3. Select k random points from the data as centroids. 
 4. Calculate the Eucledean Distance from each feature vector to each centroid and assign each datapoint to the closest cluster centroid.
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/132998845-37a6f436-47b4-4337-a030-72bd9212d59f.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/132998845-37a6f436-47b4-4337-a030-72bd9212d59f.png)
 
    The algorithm in the attached notebook uses the Euclidean Distance, but there are two other ways of calculating diatance that are used in machine learning algorithms: 
      
    - **Cosine distance:** determines the cosine of the angle between the point vectors of two points in n dimensional space. The closer the point vectors are by angle, the higher the Cosine Similarity. The equation is below:
     
-   ![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146046597-0f8d9449-30d1-4bc7-9560-1b271cff737b.png)
+   ![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146046597-0f8d9449-30d1-4bc7-9560-1b271cff737b.png)
 
    - **Manhattan distance** total sum of the difference between the x-coordinates and the y-coordinates. The equation is below: 
     
-      ![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146046963-1f7a89a4-2a11-4466-b756-5bb1960d4c44.png)
+      ![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146046963-1f7a89a4-2a11-4466-b756-5bb1960d4c44.png)
 
    The Manhattan distance is so-called because it measures the distance between two points in a city if you could only travel along orthogonal city blocks.
    
@@ -62,7 +62,7 @@ Or the algorithm also struggles when the real clusters are of different densitie
 
 One potential solution is to use a larger number of clusters, but there is also a risk of being so overly specific that the data loses any meaning. Alternatively, one could generalize k-means clustering to allow for differing cluster widths and densities.
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146047921-d690478c-1ca2-4a7b-bf81-1a4d9b73806e.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/146047921-d690478c-1ca2-4a7b-bf81-1a4d9b73806e.png)
 
 The plot on the left is normal k-means, without generalization. This results in a non-intuitive cluster boundary. The plot in the middle allows for different cluster widths, which results in more intuitive clusters of different sizes. Finally, the right plot further allows for different widths per dimension, which results in and elliptical rather than circular shape. Depending on the dataset, these could improve the results.
 

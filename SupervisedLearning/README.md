@@ -2,22 +2,22 @@
 
 Supervised learning methods are widely used in practice. The intuition of Supervised learning is that algorithm learns from the **labeled data** and helps the user predict outcomes for unforeseen data. In other words the algorithms are designed to "learn by example". Labeled training data means each example consists of a set of input objects (features) and a desired output value (labels), and the algorithm learns the patterns between the input and the output. The learning precess is just like to be taught by a teacher that the correct answers (labels) are known and the algorithm iteratively makes predictions which would be corrected by the teacher. 
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Image/supervised_learning.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/Image/supervised_learning.png)
 
 There are ten supervised learning algorithms performed in this sub-repository. Most of the algorithms are coded from scratch. Each algorithm is performed in two different datasets, one of which is from the class example. 
 
 List of **Supervised Learning** Algorithms in this repository:
 
-* [Perceptron](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/Perceptron)
-* [Gradient Descent](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent)
-* [Linear Regression](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/Linear%20Regression)
-* [Logistic Regression](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression)
-* [Neuron Network](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/5%20-%20Neural%20Network)
-* [K Nearest Neighbors (KNN)](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN))
-* [Naive Bayes Classifier](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier)
-* [Decision Tree](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/7%20-%20Decision%20Tree)
-* [Support Vector Machines (SVMs)](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs))
-* [Ensemble Learning and Random Forest](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/Ensemble%20Learning%20and%20Random%20Forest)
+* [Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Perceptron)
+* [Gradient Descent](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent)
+* [Linear Regression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Linear%20Regression)
+* [Logistic Regression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression)
+* [Neuron Network](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/5%20-%20Neural%20Network)
+* [K Nearest Neighbors (KNN)](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN))
+* [Naive Bayes Classifier](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier)
+* [Decision Tree](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20Decision%20Tree)
+* [Support Vector Machines (SVMs)](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs))
+* [Ensemble Learning and Random Forest](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Ensemble%20Learning%20and%20Random%20Forest)
 
 ---
 
@@ -36,5 +36,5 @@ There are two types of supervised learning methods:
   - popular regression algorithms: linear regression, logistic regression, polynomial regression, K nearest neighbor regression, decision trees regression, support vector regression
 
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Image/types_of_supervised_learning.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/Image/types_of_supervised_learning.png)
 

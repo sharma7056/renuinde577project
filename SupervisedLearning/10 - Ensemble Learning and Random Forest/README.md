@@ -3,11 +3,9 @@
 This sub-repository demonstrates the implementation of Ensemble Learning algorithms (including Random Forest) to solve classification problems.
 
 Content of **Ensemble Learning and Random Forest**
-
-* [Image](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Image): contains images used in README
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Data): contains datasets used in this module
-* [Ensemble_Learning_makemoons.ipynb]([b](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_makemoons.ipynb)): Jupyter notebook file performing Random Forest and two other different Ensemble Learning algorithms using the make_moons Dataset from sklearn (artificial dataset)
-* [Ensemble_Learning_and_Random_Forest.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_and_Random_Forest.ipynb): Jupyter notebook file containing
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Data): contains datasets used in this module
+* [Ensemble_Learning_makemoons.ipynb]([b](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_makemoons.ipynb)): Jupyter notebook file performing Random Forest and two other different Ensemble Learning algorithms using the make_moons Dataset from sklearn (artificial dataset)
+* [Ensemble_Learning_and_Random_Forest.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_and_Random_Forest.ipynb): Jupyter notebook file containing
   * a. Introduction of the Ensemble Learning algorithm and the Random Forest algorithm
   * b. Performing Random Forest algorithm and three other different Ensemble Learning algorithms using penguins dataset to classify penguins species
 
@@ -36,7 +34,7 @@ In a single decision tree model typically has high variance and has performance 
 
 Random forest method is an extension of decision trees, which belongs to the a class of machine learning algorithms called **ensemble methods**. Random forest utilizes multiple subsets drawn from the training data, training a set of decision tree classifiers to generate individual predictions based on these distinct subsets. It accommodates both categorical and numerical variables, exhibiting less sensitivity to scaling and requiring less computational resources compared to SVM. Random forest also performs effectively with missing data and is less prone to overfitting without necessitating hyperparameter tuning. Each tree contributes a vote, and the prediction receiving the highest number of votes is chosen as the final prediction.
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Image/random-forest-classifier.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Image/random-forest-classifier.png)
 
 
 Generalized Algorithm

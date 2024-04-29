@@ -4,9 +4,9 @@ This sub-repository demonstrates the implementation of K Nearest Neighbors to so
 
 Contents of **K Nearest Neighbors (KNN)**
 
-* [Image](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Image): contains images. 
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Data): contains dataset used in this module. 
-* [KNN.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/KNN.ipynb): Jupyter notebook implementations of
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Image): contains images. 
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Data): contains dataset used in this module. 
+* [KNN.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/KNN.ipynb): Jupyter notebook implementations of
   * 1) Building KNN algorithm from scratch and performing KNN using Hawks Dataset to classify the hawks species
   * 2) Compare the built algorithm with the *KNeighborsClassifier* from sklearn
 

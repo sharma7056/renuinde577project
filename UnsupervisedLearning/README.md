@@ -3,7 +3,7 @@
 There are two unsupervised learning algorithm performed in this sub-repository. The K Means Clustering algorithm is coded from scratch. 
 
 Contents of **Unsupervised Learning**:
-* [K Means Clustering](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/UnsupervisedLearning/K%20Means%20Clustering)
+* [K Means Clustering](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering)
 
 ---
 
@@ -11,7 +11,7 @@ Contents of **Unsupervised Learning**:
 
 Unsupervised learning is used to find underlying patterns in data, and involves finding structures and relationships from inputs. This is helpful when we have unlabeled data or aren't sure which outputs are meaningful. There is a set of data that is **unlabeled** to learn from, with the goal of identifying patterns in that data. In contrast to supervised learning, which focuses on labels, unsupervised learning focuses on **features** of the data. 
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/Image/unsup_header.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/Image/unsup_header.png)
 
 
 The outcome of an unsupervised learning model involves grouping observations into distinct clusters (clustering) or establishing rules to discern associations among variables (association). With extensive datasets, maintaining training datasets as compact and effective as possible is crucial. Unsupervised learning algorithms can also employ "dimensionality reduction" to represent dataset information with only a fraction of its original content, often integrated as part of preprocessing steps.
@@ -36,4 +36,4 @@ Types of Algorithms:
   - common algorithms: A priori algorithm, frequent pattern (FP) growth algorithm, rapid association rule mining (RARM), ECLAT algorithm
 
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/UnsupervisedLearning/Image/unsup_cat.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/Image/unsup_cat.png)
