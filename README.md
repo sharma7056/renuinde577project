@@ -45,6 +45,7 @@ For this repository, each sub-repository is named by an algorithm name, and it c
 Here are the link to sub dipostries:
 
 - [Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/1%20-%20Perceptron)
+- Gradient = 
 
 
 Programming language used in this repository is Python 3.
