@@ -3,10 +3,8 @@
 This sub-repository demonstrates the implementation of Gradient Descent to solve regression problems.
 
 Contents in **Gradient Descent**
-* [Image](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent/Image): folder containing images used in README
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent/Data): folder containing datasets
-  - [penguins.csv](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Data/penguins.csv): Penguins Dataset
-* [Gradient_Descent.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Gradient_Descent.ipynb): Jupyter notebook containing 
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent/Data): folder containing datasets
+* [Gradient_Descent.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Gradient_Descent.ipynb): Jupyter notebook containing 
   - 1) Introduction of Gradient Descent algorithm
   - 2) Implement:
     * Part 1: 
@@ -17,7 +15,7 @@ Contents in **Gradient Descent**
       * Perform the Gradient Descent to find a linear regression model to predict the body mass of penguin by the flipper length
       * Compare the built algorithm with the *LinearRegression* tool from sklearn
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Image/GD_2.png)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Image/GD_2.png)
 
 ### A Short Summary
 
