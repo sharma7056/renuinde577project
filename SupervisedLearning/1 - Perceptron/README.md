@@ -4,18 +4,13 @@ This sub-repository illustrate the use of Perceptron algorithm to solve classifi
 
 Contents of **Perceptron**
 
-* [Image](https://github.com/cissyyang1014/DataScience_and_MachineLearning/tree/main/SupervisedLearning/Perceptron/Image): contains images used in README
-* [Data](https://github.com/ppunia74/INDE-577_Fall2022/tree/main/SupervisedLearning/Perceptron/Data): contains all data files used in this module
-  * [banknote authentication.csv](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Perceptron/Data/BankNote_Authentication.csv): Banknote Authentication Dataset
-* [Perceptron_iris.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Perceptron/Perceptron_iris.ipynb): Jupyter notebook file contains:
-  * a. Building Perceptron algorithm from scratch
-  * b. Performing perceptron algorithm using Iris Dataset to classify the iris species
-* [Perceptron.ipynb](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Perceptron/Perceptron.ipynb): Jupyter notebook file contains
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/1%20-%20Perceptron/Data): contains all data files used in this module
+* [Perceptron.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/1%20-%20Perceptron/Perceptron.ipynb): Jupyter notebook file contains
   * a. Introduction of the perceptron algorithm
   * b. Building Perceptron algorithm from scratch
   * c. Implement the perceptron algorithm using banknote authentication dataset to classify forged and genuine currency
 
-![image](https://github.com/ppunia74/INDE-577_Fall2022/blob/main/SupervisedLearning/Perceptron/Image/perceptron.jpeg)
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/1%20-%20Perceptron/Image/perceptron.jpeg)
 
 ### A Short Summary
 
