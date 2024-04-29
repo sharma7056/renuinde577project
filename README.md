@@ -42,6 +42,9 @@ The topics covered in this course broadly fall into 2 categories:
 
 For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and implements algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable).
 
+[Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/1%20-%20Perceptron)
+
+
 Programming language used in this repository is Python 3.
 
 This repository primarily contains supervised learning algorithms and unsupervised learning algorithms.
