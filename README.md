@@ -44,10 +44,17 @@ This repository primarily contains supervised learning algorithms and unsupervis
 For this repository, each sub-repository is named by an algorithm name, and it contains a .ipynb file which illustrates and implements algorithms/applications/visualizations learned in that week, a README file, and sub-repositories of dataset/images files (if applicable). 
 Here are the link to sub dipostries:
 
+
 - [Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/1%20-%20Perceptron)
-- Gradient = 
+- [GradientDescent](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent)
+- [LinearRegression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/3%20-%20Linear%20Regression)
+- [LogisticRegression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression)
+- [NeuralNetwork](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression)
+- [KNN](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN))
+- [NaiveBayesClassifier](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier)
+- [DecisionTree](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/8%20-%20Decision%20Tree)
+- [SupportVectorMachines](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs))
+- [UnsupervisedLearning](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning)
 
-
-Programming language used in this repository is Python 3.
 
 
