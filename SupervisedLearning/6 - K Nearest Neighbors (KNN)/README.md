@@ -1,21 +1,8 @@
 # K Nearest Neighbors (KNN)
 
-This sub-repository demonstrates the implementation of K Nearest Neighbors to solve classification problems.
-
-Contents of **K Nearest Neighbors (KNN)**
-
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Image): contains images. 
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Data): contains dataset used in this module. 
-* [KNN.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/KNN.ipynb): Jupyter notebook implementations of
-  * 1) Building KNN algorithm from scratch and performing KNN using Hawks Dataset to classify the hawks species
-  * 2) Compare the built algorithm with the *KNeighborsClassifier* from sklearn
-
-
-### A Short Summary
 
 <img src="Image/KNN-regression.gif" alt="Drawing" style="width: 500px;"/>
 
-# K Nearest Neighbors (KNN)
 
 K Nearest Neighbors (KNN) represents a straightforward classification algorithm that retains all available cases and categorizes new data based on their similarity to existing cases. Its primary utilization lies in classifying data by assessing their resemblance to neighboring instances. The application spectrum spans from recommendation systems and anomaly detection to image and text classification. Although less prevalent, KNN can also serve for regression tasks.
 
@@ -49,6 +36,17 @@ In short, KNN essentially entails aggregating a majority vote from the K most ak
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=E = \frac {1}{M} \sum \limits_{i=1}^{M} \left(y_i \ne \hat {y_i} \right)" style="border:none;">
 
 ---
+
+This sub-repository demonstrates the implementation of K Nearest Neighbors to solve classification problems.
+
+Contents of **K Nearest Neighbors (KNN)**
+
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Image): contains images. 
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/Data): contains dataset used in this module. 
+* [KNN.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN)/KNN.ipynb): Jupyter notebook implementations of
+  * 1) Building KNN algorithm from scratch and performing KNN using Hawks Dataset to classify the hawks species
+  * 2) Compare the built algorithm with the *KNeighborsClassifier* from sklearn
+
 
 ### Datasets
 

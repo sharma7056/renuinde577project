@@ -1,25 +1,7 @@
 # Gradient Descent
 
-This sub-repository demonstrates the implementation of Gradient Descent to solve regression problems.
-
-Contents in **Gradient Descent**
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent/Data): folder containing datasets
-* [Gradient_Descent.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Gradient_Descent.ipynb): Jupyter notebook containing 
-  - 1) Introduction of Gradient Descent algorithm
-  - 2) Implement:
-    * Part 1: 
-      * Build the Gradient Descent algorithm from scratch
-      * Find a best linear model for a data with 4 data points using the algorithm.
-    * Part 2: 
-      * Build the Gradient Descent algorithm from scratch
-      * Perform the Gradient Descent to find a linear regression model to predict the body mass of penguin by the flipper length
-      * Compare the built algorithm with the *LinearRegression* tool from sklearn
-
 ![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Image/GD_2.png)
 
-### A Short Summary
-
-# Gradient Descent
 
 Gradient descent serves as an optimization technique aimed at locating a local minimum of a differentiable function. Its primary application lies in determining parameter values that minimize a given cost function. The basic concept involves iteratively adjusting parameters to progressively approach the local minimum of the function, <img src="https://latex.codecogs.com/svg.image?min_{x&space;\in&space;{R^{n}}}&space;f(x)" title="min_{x \in {R^{n}}} f(x)" />.
 
@@ -61,4 +43,19 @@ Mean squared error is a common measure of performance:
 
 ![image](https://miro.medium.com/max/1013/1*GQ6vjZ9j0K5V7BReHywWAA.png)
 
-Check out [this video](https://youtu.be/IHZwWFHWa-w?t=416) for more information.
+
+
+This sub-repository demonstrates the implementation of Gradient Descent to solve regression problems.
+
+Contents in **Gradient Descent**
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent/Data): folder containing datasets
+* [Gradient_Descent.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/2%20-%20Gradient%20Descent/Gradient_Descent.ipynb): Jupyter notebook containing 
+  - 1) Introduction of Gradient Descent algorithm
+  - 2) Implement:
+    * Part 1: 
+      * Build the Gradient Descent algorithm from scratch
+      * Find a best linear model for a data with 4 data points using the algorithm.
+    * Part 2: 
+      * Build the Gradient Descent algorithm from scratch
+      * Perform the Gradient Descent to find a linear regression model to predict the body mass of penguin by the flipper length
+      * Compare the built algorithm with the *LinearRegression* tool from sklearn

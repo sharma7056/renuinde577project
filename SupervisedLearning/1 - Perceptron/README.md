@@ -1,5 +1,49 @@
 # Perceptron
 
+![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/1%20-%20Perceptron/Image/perceptron.jpeg)
+
+
+The perceptron, a supervised binary classifier, operates as a single-layer neural network. Within the perceptron algorithm, each neuron receives inputs, assigns weights to them individually, computes their sum, and then applies a nonlinear function (activation function) to generate an output. Essentially, it functions as a mathematical model that delineates a boundary to distinguish between two groups in a given space.
+
+The perceptron comprises four essential components: input values, weights and bias, the weighted sum (net sum), and the activation function.
+
+### Weighted Sum
+
+The weighted sum represents the combined input to the neuron from all previous layers, adjusted by the respective weights and added to a bias value. This sum is then fed into the activation function to produce the neuron's output. The weighted sum, `z`, is calculated by multiplying each input feature in `X` by its corresponding weight from `w` and then summing all these products together, adding the bias `b` at the end:
+
+z = w^T X^i + b = w_1 X^i_1 + w_2 X^i_2 + ... + w_n X^i_n + b
+
+
+### Activation Function
+
+The activation function in a perceptron decides the output based on the weighted sum. It introduces non-linearity to the model, enabling it to learn more complex patterns. The sign function is typically used in perceptrons, which outputs one of two classes based on the sign of the input.
+
+The output of the perceptron, `y_hat^i`, is determined by the sign of the weighted sum:
+
+y_hat^i = sign(z) = {
+  1  if z > 0
+ -1  if z <= 0
+}
+
+### Loss function
+
+The loss function quantifies the error between the predicted outputs and the actual labels during training. It guides the training process by indicating how well the model is performing, with the goal being to minimize this error through adjustments in the model's weights. The perceptron loss for an individual example is given by the squared error loss:
+
+L(w, X^i) = 0.5 * (y_hat^i - y^i)^2
+
+
+To train the perceptron, we need to update its weights based on the errors made by the model. This is done using stochastic gradient descent. The gradient of the loss function with respect to the weights is computed, and then the weights are updated in the direction that minimally reduces the loss. The approximate gradient of the loss with respect to the weights is calculated as:
+
+∇L(w, X^i) = (y_hat^i - y^i) * X^i
+
+The weight update rule is then defined as:
+
+w_(n+1) = w_n - α * ∇L(w, X^i)
+
+
+---
+
+
 This sub-repository illustrate the use of Perceptron algorithm to solve classification problems.
 
 Contents of **Perceptron**
@@ -10,42 +54,7 @@ Contents of **Perceptron**
   * b. Building Perceptron algorithm from scratch
   * c. Implement the perceptron algorithm using banknote authentication dataset to classify forged and genuine currency
 
-![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/1%20-%20Perceptron/Image/perceptron.jpeg)
 
-### A Short Summary
-
-# Perceptron
-
-The perceptron, a supervised binary classifier, operates as a single-layer neural network. Within the perceptron algorithm, each neuron receives inputs, assigns weights to them individually, computes their sum, and then applies a nonlinear function (activation function) to generate an output. Essentially, it functions as a mathematical model that delineates a boundary to distinguish between two groups in a given space.
-
-The perceptron comprises four essential components: input values, weights and bias, the weighted sum (net sum), and the activation function.
-
-### Weighted Sum
-
-Considering the bias, the weighted sum <img src="https://latex.codecogs.com/svg.image?\sum" title="\sum" /> multiplies all inputs of <img src="https://latex.codecogs.com/svg.image?X" title="X" /> by weight <img src="https://latex.codecogs.com/svg.image?w" title="w" /> and then adds them up, that
-
-<img src="https://latex.codecogs.com/svg.image?\sum&space;=&space;w^T&space;\bar&space;X^i=w_1X^i_1&plus;w_2X^i_2&plus;...&plus;w_nX^i_n&plus;b\cdot&space;1.0" title="\sum = w^T \bar X^i=w_1X^i_1+w_2X^i_2+...+w_nX^i_n+b\cdot 1.0" />, where <img src="https://latex.codecogs.com/svg.image?\bar&space;X^i=\begin{bmatrix}X^i_1\\&space;\vdots\\&space;X^i_n&space;\\&space;1.0\end{bmatrix}" title="\bar X^i=\begin{bmatrix}X^i_1\\ \vdots\\ X^i_n \\ 1.0\end{bmatrix}" /> and <img src="https://latex.codecogs.com/svg.image?b" title="b" /> is the bias.
-
-### Activation Function
-
-The activation function is used to convert perceptron output. In our algorithm, sign function is used.
-
-<img src="https://latex.codecogs.com/svg.image?\hat&space;y^i=sign(w^T&space;\bar&space;X^i)=\left\{\begin{matrix}1,&space;\space\space&space;w^T\bar&space;X^i>0\\&space;-1,\space\space&space;w^T\bar&space;X^i<0\end{matrix}\right." title="\hat y^i=sign(w^T \bar X^i)=\left\{\begin{matrix}1, \space\space w^T\bar X^i>0\\ -1,\space\space w^T\bar X^i<0\end{matrix}\right." />
-
-### Loss Function
-
-In our algorithm, 
-
-<img src="https://latex.codecogs.com/svg.image?L(w,&space;\bar&space;X^i)=\frac{1}{2}\sum_{i=1}^n(\hat&space;y^i-y^i)^2&space;=&space;\frac{1}{2}\sum_{i=1}^n\left&space;(sign(w^T&space;\bar&space;X^i)-y^i\right)^2" title="L(w, \bar X^i)=\frac{1}{2}\sum_{i=1}^n(\hat y^i-y^i)^2 = \frac{1}{2}\sum_{i=1}^n\left (sign(w^T \bar X^i)-y^i\right)^2" />
-
-The **stochastic gradient descent** will be used to optimize the algorithm. Since the sign function cannot be derived, we use an **approximate** gradient of the loss fuction that
-
-<img src="https://latex.codecogs.com/svg.image?\triangledown&space;L(w,&space;\bar&space;X^i)=\left&space;(sign(w^T&space;\bar&space;X^i)-y^i\right)\bar&space;X_i" title="\triangledown L(w, \bar X^i)=\left (sign(w^T \bar X^i)-y^i\right)\bar X_i" />
-
-And thus, to update the weights, <img src="https://latex.codecogs.com/svg.image?w_{n&plus;1}=w_n&space;-&space;\alpha&space;\triangledown&space;L(w,&space;\bar&space;X^i)" title="w_{n+1}=w_n - \alpha \triangledown L(w, \bar X^i)" />, where <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" /> is the learning rate.
-
-
----
 ### Dataset
 
 Following datasets is used to implement Perceptron algorithm:

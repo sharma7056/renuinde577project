@@ -1,15 +1,3 @@
-# K Means Clustering
-
-This sub-repository implements K-Means Clustering to solve classification problems. The **Principal Component Analysis (PCA)** is used to reduced the dimension of the dataset.
-
-Contents of **K Means Clustering**
-
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Image): contains images used in subrepository
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Data): contains data files used in this module
-* [K means clustering](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/K%20Means%20Clustering.ipynb)
-
-![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/k%20means.png)
-
 
 # K Means Clustering
 K-means clustering is one of the most popular unsupervised machine learning algorithms. The objective of the algorithm is to partition a given data with similar features together into **clusters** to find underlying patterns. This achieved by using a pre-defined number (k) of clusters for the data. Points are only able to be part of one cluster, and each cluster has a "centroid" that roughly averages the data and represents the center of the cluster. Data points are then allocated to each of the clusters by assigning them to clusters in such a way that minimizes each cluster's sum of squares (often using Euclidean distance).
@@ -82,3 +70,14 @@ To calculate PCA:
 * Calculate the eigen decomposition of the covariance matrix
 
 ---
+
+
+This sub-repository implements K-Means Clustering to solve classification problems. The **Principal Component Analysis (PCA)** is used to reduced the dimension of the dataset.
+
+Contents of **K Means Clustering**
+
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Image): contains images used in subrepository
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/UnsupervisedLearning/K%20Means%20Clustering/Data): contains data files used in this module
+* [K means clustering](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/K%20Means%20Clustering.ipynb)
+
+![image](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/K%20Means%20Clustering/Image/k%20means.png)

@@ -1,15 +1,5 @@
-# Support Vector Machines (SVMs)
+### Support Vector Machines (SVMs)
 
-Contents of **Support Vector Machines (SVMs)**
-
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image): contains images used in README
-* [SVM](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/SVM.ipynb): Jupyter notebook file performs the SVM algorithm to train a classifier to automatically annotate single-cell RNA-seq data.
-
-![iamge](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image/SVM.png)
-
-### A Short Summary
-
-# Support Vector Machines (SVMs)
 
 The Support Vector Machine (SVM) algorithm is a supervised machine learning technique applicable to both regression and classification assignments. SVM identifies a hyperplane within an N-dimensional space (where N denotes the number of features) to segregate diverse data types. To establish boundaries, it determines the maximum distance between the nearest points of two classes, defining the optimal decision boundary known as support vectors. The area between the decision boundary and the support vectors is termed the margin. Therefore, SVM is primarily employed for binary classification tasks and exhibits robust performance when handling linearly separable data. We use **Kernalized SVM** for non-linearly separable data. SVM is more often used for classification, but it can also be used for regression. The advantage of SVM is its significant accuracy with less computational power.
 
@@ -19,6 +9,14 @@ The working flow of a simple SVM algorithm can be simply summarized in two steps
 * Picks the one that has the maximum distance from the closest data points
 
 ---
+
+Contents of **Support Vector Machines (SVMs)**
+
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image): contains images used in README
+* [SVM](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/SVM.ipynb): Jupyter notebook file performs the SVM algorithm to train a classifier to automatically annotate single-cell RNA-seq data.
+
+![iamge](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image/SVM.png)
+
 
 ### Dataset
 

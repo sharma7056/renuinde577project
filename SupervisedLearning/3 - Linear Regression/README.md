@@ -1,21 +1,6 @@
 # Linear Regression
 
-This sub-repository demonstrates the implementation of Linear Regression algorithm on the time series financial data.
-
-Contents of **Linear Regression**
-
-* [Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/2.3.png): contains images used in the sub-repository
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/3%20-%20Linear%20Regression/Datasets) contains dataset used in the regression.
-* [Linear_Reression](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/3%20-%20Linear%20Regression/Linear_Regression.ipynb): Jupyter notebook file contains
-  * a. Introduction of Linear Regression
-  * b. Building Linear Regression algorithm from scratch and implement Linear Regression to predict the car price, and predict the future prices
-  * c.  Feature Engineering
-
 ![image](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/Linear%20Regression/Image/linear-regression.png)
-
-### A Short Summary
-
-# Linear Regression
 
 [Linear regression](https://en.wikipedia.org/wiki/Linear_regression) a traditional supervised model with a history spanning over two centuries, combines a designated set of input values (x) to predict an output (y). Both input and output variables are numerical. The linear equation assigns a unique scale factor (often represented as "m") to each input value, along with a constant term (often represented as "b"). This constant provides the line with an additional degree of freedom, allowing it to vertically shift on a two-dimensional plane. Thus, we have the familiar equation from algebra: **y = mx + b** (below). In the image above, the red line is referred to as the **line of best fit** described by this equation.
 
@@ -41,3 +26,14 @@ Some of the commonly used linear regression based methods::
 Please read [Linear_Reression.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/Linear%20Regression/Linear_Regression.ipynb) to learn more details.
 
 ---
+
+This sub-repository demonstrates the implementation of Linear Regression algorithm on the time series financial data.
+
+Contents of **Linear Regression**
+
+* [Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/2.3.png): contains images used in the sub-repository
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/3%20-%20Linear%20Regression/Datasets) contains dataset used in the regression.
+* [Linear_Reression](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/3%20-%20Linear%20Regression/Linear_Regression.ipynb): Jupyter notebook file contains
+  * a. Introduction of Linear Regression
+  * b. Building Linear Regression algorithm from scratch and implement Linear Regression to predict the car price, and predict the future prices
+  * c.  Feature Engineering

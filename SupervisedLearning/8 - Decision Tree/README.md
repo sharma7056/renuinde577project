@@ -1,22 +1,6 @@
 # Decision Tree
 
-This sub-repository mainly focuses on using Decision Tree Algorithm to solve classification problems.
-
-Contents of **Decision Tree**
-
-  * [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/8%20-%20Decision%20Tree/Data): Penguins Dataset
-* [Decision Tree](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/8%20-%20Decision%20Tree/Decision%20Tree.ipynb): Jupyter notebook file containing
-  * a. Introduction of the decision tree algorithm
-  * b. Performing the decision tree algorithm using penguins dataset to classify penguins species
-  * c. Using confusion matrix to evaluate the algorithm
-  * d. Increasing the depth of the decision tree algorithm and compare
-
-### A Short Summary
-
 <img src="Image/decision-tree.png" alt="Drawing" style="width: 500px;"/>
-
-
-# Decision Tree
 
 Decision trees are applicable to both classification and regression problems, leveraging the analogy of a tree. In this structure, each internal node represents a data attribute, while each leaf node corresponds to a class label. As a non-parametric supervised machine learning algorithm, decision trees continuously partition data based on specific parameters. Beginning with the root node, the tree progressively divides into two or more homogeneous subsets at decision nodes. Ultimately, the leaves denote the final outcomes or decisions.
 
@@ -74,6 +58,19 @@ Overfitting is a common issue with decision trees. There are two approaches to a
 
 
 ---
+
+
+This sub-repository mainly focuses on using Decision Tree Algorithm to solve classification problems.
+
+Contents of **Decision Tree**
+
+  * [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/8%20-%20Decision%20Tree/Data): Penguins Dataset
+* [Decision Tree](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/8%20-%20Decision%20Tree/Decision%20Tree.ipynb): Jupyter notebook file containing
+  * a. Introduction of the decision tree algorithm
+  * b. Performing the decision tree algorithm using penguins dataset to classify penguins species
+  * c. Using confusion matrix to evaluate the algorithm
+  * d. Increasing the depth of the decision tree algorithm and compare
+
 
 ### Datasets
 * Penguins Dataset:

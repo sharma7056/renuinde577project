@@ -1,14 +1,5 @@
 # Ensemble Learning and Random Forest
 
-This sub-repository demonstrates the implementation of Ensemble Learning algorithms (including Random Forest) to solve classification problems.
-
-Content of **Ensemble Learning and Random Forest**
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Data): contains datasets used in this module
-* [Ensemble_Learning_makemoons.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/README.md): Jupyter notebook file performing Random Forest and two other different Ensemble Learning algorithms using the make_moons Dataset from sklearn (artificial dataset)
-* [Ensemble_Learning_and_Random_Forest.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_and_Random_Forest.ipynb): Jupyter notebook file containing
-  * a. Introduction of the Ensemble Learning algorithm and the Random Forest algorithm
-  * b. Performing Random Forest algorithm and three other different Ensemble Learning algorithms using penguins dataset to classify penguins species
-
 ![image](https://github.com/cissyyang1014/DataScience_and_MachineLearning/blob/main/SupervisedLearning/Ensemble%20Learning%20and%20Random%20Forest/Image/10image001.png)
 
 # Ensemble Learning
@@ -56,6 +47,18 @@ There are a few stopping criteria:
 - minimum number of samples in a leaf node when the terminal node is split
 - maximum tree depth, i.e. the maximum number of levels a tree can grow
 - Tree accuracy (defined by the Gini Index) is less than a fixed threshold
+
+---
+
+This sub-repository demonstrates the implementation of Ensemble Learning algorithms (including Random Forest) to solve classification problems.
+
+Content of **Ensemble Learning and Random Forest**
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Data): contains datasets used in this module
+* [Ensemble_Learning_makemoons.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/README.md): Jupyter notebook file performing Random Forest and two other different Ensemble Learning algorithms using the make_moons Dataset from sklearn (artificial dataset)
+* [Ensemble_Learning_and_Random_Forest.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest/Ensemble_Learning_and_Random_Forest.ipynb): Jupyter notebook file containing
+  * a. Introduction of the Ensemble Learning algorithm and the Random Forest algorithm
+  * b. Performing Random Forest algorithm and three other different Ensemble Learning algorithms using penguins dataset to classify penguins species.
+
 
 
 ### Datasets

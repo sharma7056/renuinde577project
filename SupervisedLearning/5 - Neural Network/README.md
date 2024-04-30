@@ -1,23 +1,5 @@
 # Neural Network (Multilayer Perceptron Learning Algorithm)
 
-This sub-repository implements a Multilayer Perceptron Learning Algorithm aka neural network on images to predict the labels.
-
-Contents of **Neural Network**
-
-* [Image](https://github.com/sharma7056/renuinde577project/main/SupervisedLearning/5%20-%20Neural%20Network/Image): folder contains images used in README
-* [MLP_MNIST.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/5%20-%20Neural%20Network/MLP_MNIST.ipynb): Jupyter notebook file contains
-  * a. Building Multilayer Perceptron Learning algorithm from scratch
-  * b. Performing multilayer perceptron algorithm using MNIST Dataset to classify the handwritten digits
-* [MLP.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/5%20-%20Neural%20Network/MLP.ipynb): Jupyter notebook file contains
-  * a. Introduction of the perceptron algorithm
-  * b. Building Multilayer Perceptron Learning algorithm from scratch
-  * c. Performing the multilayer perceptron algorithm using Fashion MNIST dataset to classify fashion categories
-  * d. Increase the number of nodes in the hidden layers and compare
-  * e. Add ReLU function as another activation function and compare
-
-### A Short Summary
-
-# Multilayer Perceptron Learning Algorithm
 
 The Multilayer Perceptron Learning algorithm, also known as a neural network, is extensively employed for tasks such as image recognition, speech recognition, and natural language processing. The fundamental idea behind neural networks is to identify underlying patterns within a dataset by simulating the operations of the human brain. Neural networks consist of interconnected neurons arranged in layers, with each neuron applying a function to its inputs to compute outputs. These neurons are associated with weights (w) that signify the relative significance of each input compared to others.
 
@@ -33,6 +15,23 @@ Neural network algorithm has following components:
 * Learning rule: algorithm which modifies the parameters of the neural network, in order for a given input to the network to produce a favored output. This *learning* process is often just modifying the weights and thresholds
 
 ---
+
+
+This sub-repository implements a Multilayer Perceptron Learning Algorithm aka neural network on images to predict the labels.
+
+Contents of **Neural Network**
+
+* [Image](https://github.com/sharma7056/renuinde577project/main/SupervisedLearning/5%20-%20Neural%20Network/Image): folder contains images used in README
+* [MLP_MNIST.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/5%20-%20Neural%20Network/MLP_MNIST.ipynb): Jupyter notebook file contains
+  * a. Building Multilayer Perceptron Learning algorithm from scratch
+  * b. Performing multilayer perceptron algorithm using MNIST Dataset to classify the handwritten digits
+* [MLP.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/5%20-%20Neural%20Network/MLP.ipynb): Jupyter notebook file contains
+  * a. Introduction of the perceptron algorithm
+  * b. Building Multilayer Perceptron Learning algorithm from scratch
+  * c. Performing the multilayer perceptron algorithm using Fashion MNIST dataset to classify fashion categories
+  * d. Increase the number of nodes in the hidden layers and compare
+  * e. Add ReLU function as another activation function and compare
+
 
 ### Datasets
 

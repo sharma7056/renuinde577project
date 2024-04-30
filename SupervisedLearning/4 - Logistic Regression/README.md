@@ -1,20 +1,7 @@
 # Logistic Regression
 
-This sub-repository demonstrates the implementation of Logistic Regression algorithm to solve classification problems.
-
-Contents of **Logistic Regression**
-
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression/Image): folder contains images used in README
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression/Data): Folders contains all data files used in this module
-* [Logistic_Regression.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/4%20-%20Logistic%20Regression/Logistic_Regression.ipynb): Jupyter notebook file containing
-  * a. Introduction of Logistic Regression algorithm
-  * b. Building Logistic Regression algorithm from scratch 
-  * c. Performing the algorithm using Pima Indians Diabetes Dataset to predict whether the person would have diabetes or not in the 5 years
-
 <img src="Image/logisticregression.JPG" alt="Drawing" style="width: 500px;"/>
 
-### A Short Summary
-# Logistic Regression
 
 Logistic Regression, a frequently employed machine learning algorithm for classification and prediction tasks, operates as a probabilistic method based on [maximum likelihood estimation](https://towardsdatascience.com/an-introduction-to-logistic-regression-8136ad65da2e).
 In logistic regression uses a binary dependent variable. 
@@ -58,3 +45,14 @@ The above two cost functions can be combined into a single function
 * Step 4: Repeat Step 1 to Step 3 until desired loss in-sample is reached, or a maximum number of steps is reached
 
 ---
+
+This sub-repository demonstrates the implementation of Logistic Regression algorithm to solve classification problems.
+
+Contents of **Logistic Regression**
+
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression/Image): folder contains images used in README
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression/Data): Folders contains all data files used in this module
+* [Logistic_Regression.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/4%20-%20Logistic%20Regression/Logistic_Regression.ipynb): Jupyter notebook file containing
+  * a. Introduction of Logistic Regression algorithm
+  * b. Building Logistic Regression algorithm from scratch 
+  * c. Performing the algorithm using Pima Indians Diabetes Dataset to predict whether the person would have diabetes or not in the 5 years

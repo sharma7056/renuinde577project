@@ -1,13 +1,6 @@
-This sub-repository mainly focuses on using Naive Bayes Classifier Algorithm to solve classification problems.
 
-Contents of **Naive Bayes**
 
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Image): contains images used in README
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data): contains all data files used in this module
-  * [Hawk.csv](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data/Hawks.csv): Hawk Dataset
-* [Naive Bayes Classifier.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Naive%20Bayes%20Classifier.ipynb): Jupyter notebook file contains the implementation of Naive Bayes Classifier
-
-# Naive Bayes Classifier
+### Naive Bayes Classifier
 
 <img src="Image/naive-bayes.png" alt="Drawing" style="width: 500px;"/>
 
@@ -30,3 +23,14 @@ There are three main types of classifiers:
 - **Multinomial Naive Bayes**: uses multinomimal distribution and is used when features represent frequency of something occurring, like the number of words in a document or text classification purposes
 
 For more details refer to the [this article](https://medium.datadriveninvestor.com/what-are-naive-bayes-classifiers-dd8bc49db817).
+
+---
+
+This sub-repository mainly focuses on using Naive Bayes Classifier Algorithm to solve classification problems.
+
+Contents of **Naive Bayes**
+
+* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Image): contains images used in README
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data): contains all data files used in this module
+  * [Hawk.csv](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Data/Hawks.csv): Hawk Dataset
+* [Naive Bayes Classifier.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier/Naive%20Bayes%20Classifier.ipynb): Jupyter notebook file contains the implementation of Naive Bayes Classifier

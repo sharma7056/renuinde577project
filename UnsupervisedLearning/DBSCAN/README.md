@@ -1,7 +1,4 @@
 
-Contents of **DBSCAN**
-
-- [DBSCAN](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/DBSCAN/DBSCAN.ipynb)
 
 ## DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
 
@@ -38,3 +35,11 @@ DBSCAN is a popular clustering algorithm that is part of the unsupervised learni
 - **Parameter sensitivity**: Choosing an appropriate value for `eps` and `min_samples` can be challenging without domain knowledge or heuristic techniques.
 - **Performance issues**: Can perform poorly if clusters vary widely in density, as uniform parameter settings might not be suitable across all clusters.
 
+
+---
+
+This sub-repository implements DBSCAN to solve classification problems.
+
+Contents of **DBSCAN**
+
+- [DBSCAN](https://github.com/sharma7056/renuinde577project/blob/main/UnsupervisedLearning/DBSCAN/DBSCAN.ipynb)
