@@ -7,6 +7,9 @@ The working flow of a simple SVM algorithm can be simply summarized in two steps
 * Find boundaries (or hyperplane) that correctly separate the classes for the training data
 * Picks the one that has the maximum distance from the closest data points
 
+![iamge](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image/SVM.png)
+
+
 ## Kernel Trick
 
 The kernel trick is a critical enhancement for SVMs, allowing them to perform well in non-linear scenarios. Kernels transform the original input data into a higher-dimensional space where a linear separator might be found. Common kernels include:
@@ -24,16 +27,13 @@ One-vs-One (OvO): Trains a classifier for every pair of classes. A voting scheme
 
 ---
 
+
 This sub-repository demonstrates the implementation of Support Vector Machines algorithms.
 
 Contents of **Support Vector Machines (SVMs)**
 
 * [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image): contains images used in README
 * [SVM](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/SVM.ipynb): Jupyter notebook file performs the SVM algorithm to train a classifier to automatically annotate single-cell RNA-seq data.
-
-![iamge](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs)/Image/SVM.png)
-
-
 ### Dataset
 
 * Processed 3k PBMCs Dataset:
