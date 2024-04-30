@@ -5,8 +5,8 @@ This sub-repository demonstrates the implementation of Linear Regression algorit
 Contents of **Linear Regression**
 
 * [Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/2.3.png): contains images used in the sub-repository
-* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Linear%20Regression/Datasets) contains dataset used in the regression.
-* [Linear_Reression.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/Linear%20Regression/Linear_Regression.ipynb): Jupyter notebook file contains
+* [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/3%20-%20Linear%20Regression/Datasets) contains dataset used in the regression.
+* [Linear_Reression](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/3%20-%20Linear%20Regression/Linear_Regression.ipynb): Jupyter notebook file contains
   * a. Introduction of Linear Regression
   * b. Building Linear Regression algorithm from scratch and implement Linear Regression to predict the car price, and predict the future prices
   * c.  Feature Engineering

@@ -4,9 +4,8 @@ This sub-repository mainly focuses on using Decision Tree Algorithm to solve cla
 
 Contents of **Decision Tree**
 
-* [Image](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20Decision%20Tree/Image): contains images used in README
-  * [penguins.csv](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20Decision%20Tree/Data/penguins.csv): Penguins Dataset
-* [Decision Tree.ipynb](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/7%20-%20Decision%20Tree/Decision%20Tree.ipynb): Jupyter notebook file containing
+  * [Data](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/8%20-%20Decision%20Tree/Data): Penguins Dataset
+* [Decision Tree](https://github.com/sharma7056/renuinde577project/blob/main/SupervisedLearning/8%20-%20Decision%20Tree/Decision%20Tree.ipynb): Jupyter notebook file containing
   * a. Introduction of the decision tree algorithm
   * b. Performing the decision tree algorithm using penguins dataset to classify penguins species
   * c. Using confusion matrix to evaluate the algorithm
