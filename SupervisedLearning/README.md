@@ -8,18 +8,21 @@ There are ten supervised learning algorithms performed in this sub-repository. M
 
 List of **Supervised Learning** Algorithms in this repository:
 
-* [Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Perceptron)
+
+* [Perceptron](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/1%20-%20Perceptron)
 * [Gradient Descent](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/2%20-%20Gradient%20Descent)
-* [Linear Regression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Linear%20Regression)
+* [Linear Regression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/3%20-%20Linear%20Regression)
 * [Logistic Regression](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/4%20-%20Logistic%20Regression)
 * [Neuron Network](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/5%20-%20Neural%20Network)
 * [K Nearest Neighbors (KNN)](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/6%20-%20K%20Nearest%20Neighbors%20(KNN))
 * [Naive Bayes Classifier](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20naive%20bayes%20classifier)
-* [Decision Tree](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/7%20-%20Decision%20Tree)
+* [Decision Tree](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/8%20-%20Decision%20Tree)
 * [Support Vector Machines (SVMs)](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/9%20-%20Support%20Vector%20Machines%20(SVMs))
-* [Ensemble Learning and Random Forest](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/Ensemble%20Learning%20and%20Random%20Forest)
+* [Ensemble Learning and Random Forest](https://github.com/sharma7056/renuinde577project/tree/main/SupervisedLearning/10%20-%20Ensemble%20Learning%20and%20Random%20Forest)
+
 
 ---
+
 
 In general supervised learning methods are used for two types task. Primarily supervised learning methods attempt to fit a line to that labeled data to either split it into categories (classification) or represent a trend (regression), and this line allows us to make predictions. Successfully building, scaling, and deploying accurate supervised machine learning data science models takes time and technical expertise from a team of highly skilled data scientists. Moreover, data scientists must rebuild models to make sure the insights remain true until the data changes. 
 
