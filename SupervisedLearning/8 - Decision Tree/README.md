@@ -11,27 +11,30 @@ Decision trees are applicable to both classification and regression problems, le
 3. Repeat 1-2 on each subset until you find _leaf nodes_ in all the branches of the tree.
    - Compare the attribute values of the record with those of other internal nodes in the tree until we arrive at a leaf node containing the predicted class value.
    - The main difficulty lies in deciding which attributes to assess at each stage. Several widely-used measures for attribute selection include:
+   
      - Entropy (Information gain) is a metric to measures the impurity, or uncertainty in data. 
        - Assume attributes are categorical and try to estimate the information contained by each attribute
        - Entropy measures randomness or uncertainty of a random variable X. In a binary classification problem, if all examples are positive or all are negative, entropy will be 0 (i.e. low). If half the records are of positive class and half are of negative class, entropy is 1 (i.e. high).
        - The formula of entropy is:
-      <img src="https://latex.codecogs.com/svg.image?Entropy&space;=&space;\sum_{i=1}^c&space;-P_i&space;log_2&space;(P_i)" title="Entropy = \sum_{i=1}^c -P_i log_2 (P_i)" />
+       Entropy = Σ (from i=1 to c) of (-P_i * log₂(P_i))
+
+       where `c` is the total number of classes and `P_i` is the probability of class `i` in the node.
+
+    
+    - Gini index: Gini index is used to determine the impurity or purity when building a decision tree in the classification and regression tree (CART) algorithm.
+      - Assume attributes are continuous, the index is a metric that measures how often a randomly chosen element would be incorrectly identified. Thus, we prefer a low gini index. The formula of Gini index is: The formula for the Gini index is:
       
-      where <img src="https://latex.codecogs.com/svg.image?c" title="c" /> is the total number of classes and <img src="https://latex.codecogs.com/svg.image?P_i" title="P_i" /> is the probability of class <img src="https://latex.codecogs.com/svg.image?i" title="i" /> in the node.
+      Gini = 1 - Σ (from i=1 to c) of (P_i^2)
 
-       
-   - Gini index: Gini index is used to determine the impurity or purity when building a decision tree in the classification and regression tree (CART) algorithm.
-      - Assume attributes are continuous, the index is a metric that measures how often a randomly chosen element would be incorrectly identified. Thus, we prefer a low gini index. The formula of Gini index is
+     where `c` is the total number of classes and `P_i` is the probability of class `i` in the node.
+  
 
-      <img src="https://latex.codecogs.com/svg.image?Gini=&space;1&space;-&space;\sum_{i=1}^c&space;P_i^2" title="Gini= 1 - \sum_{i=1}^c P_i^2" />
+   - Information Gain (IG): Information gain serves as the criterion for determining which feature to split at each stage during decision tree construction. The decision tree algorithm aims to maximize information gain, selecting the split with the highest value accordingly. The formula for Information Gain is:
 
-      where <img src="https://latex.codecogs.com/svg.image?c" title="c" /> is the total number of classes and <img src="https://latex.codecogs.com/svg.image?P_i" title="P_i" /> is the probability of class <img src="https://latex.codecogs.com/svg.image?i" title="i" /> in the node.
+   Information Gain = Entropy(Parent) - [Weighted Sum of Entropy(Children)]
 
-   - Information Gain (IG): Information gain serves as the criterion for determining which feature to split at each stage during decision tree construction. The decision tree algorithm aims to maximize information gain, selecting the split with the highest value accordingly. If a node <img src="https://latex.codecogs.com/svg.image?V" title="V" /> is split into <img src="https://latex.codecogs.com/svg.image?V_l" title="V_l" /> and <img src="https://latex.codecogs.com/svg.image?V_r" title="V_r" />, the formula of information gain is
+   where `Entropy(Parent)` is the entropy of the starting node, and `Weighted Sum of Entropy(Children)` is the sum of the entropies of each split node, weighted by the proportion of members in each child node compared to the parent.
 
-    <img src="https://latex.codecogs.com/svg.image?IG&space;=&space;Entropy(V)-w_l&space;\times&space;Entropy(V_l)&plus;w_r&space;\times&space;Entropy(V_r)" title="IG = Entropy(V)-w_l \times Entropy(V_l)+w_r \times Entropy(V_r)" />
-
-    where <img src="https://latex.codecogs.com/svg.image?w" title="w" /> is the weight, that <img src="https://latex.codecogs.com/svg.image?w_l=\frac&space;{|V_l|}{V}" title="w_l=\frac {|V_l|}{V}" /> and <img src="https://latex.codecogs.com/svg.image?w_r=\frac&space;{|V_r|}{V}" title="w_r=\frac {|V_r|}{V}" />.
 
    - Confusion Matrix: A confusion matrix is a tabular representation utilized to assess the effectiveness of a classification algorithm. It contrasts the actual values with those predicted by the model.
 
@@ -42,7 +45,7 @@ There are four basic terms:
 * False Positive: An outcome where the model incorrectly predicts the positive class.
 * False Negative: An outcome where the model incorrectly predicts the negative class.
 
-Based on these four terms, we can also calculate the Accuracy, Recall, Precious, and <img src="https://latex.codecogs.com/svg.image?F_1" title="F_1" /> score. These parameters can be used to evaluate the algorithm.
+Based on these four terms, we can also calculate the Accuracy. These parameters can be used to evaluate the algorithm.
 
 There are a few assumptions with the training set: 
 - At the beginning, the root is the whole training set
